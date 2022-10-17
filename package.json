@@ -4,5 +4,11 @@
   "main": "index.js",
   "author": "Ranjan Kumar Mandal",
   "license": "MIT",
-  "private": null
+  "private": null,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
 }
