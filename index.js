@@ -40,6 +40,6 @@ app.get("/api", (req, res) => {
 });
 
    
-http.listen(PORT, () => {
+http.listen(process.env.PORT || 4000, () => {
     console.log(`Server listening on ${PORT}`);
 });
